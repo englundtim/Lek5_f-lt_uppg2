@@ -27,8 +27,15 @@ public class App {
         
         System.out.println("Dina tal är: "+fältUser[0]+fältUser[1]+fältUser[2]+fältUser[3]);
 
+        String[] timon = {"uk", "gotland", "epstein island"};
         
+        System.out.println("Gissa en känd ö");
+        String pumba = puter.nextLine();
 
 
+        System.out.println("Är "+pumba+ " = "+timon[0]+"?"+":   "+pumba.equalsIgnoreCase(timon[0]));
+        System.out.println("Är "+pumba+ " = "+timon[1]+"?"+":   "+pumba.equalsIgnoreCase(timon[1]));
+        System.out.println("Är "+pumba+ " = "+timon[2]+"?"+":   "+pumba.equalsIgnoreCase(timon[2]));
+        
     }
 }
